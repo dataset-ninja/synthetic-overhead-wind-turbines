@@ -2,7 +2,7 @@
 
 The dataset consists of 400 images with 2325 labeled objects belonging to 1 single class (*wind turbines*).
 
-Each image in the Wind Turbines 2 dataset has bounding box annotations. There are 22 (6% of the total) unlabeled images (i.e. without annotations). There is 1 split in the dataset: *train* (400 images). The dataset was released in 2020.
+Images in the Wind Turbines 2 dataset has bounding box annotations. There are 22 (6% of the total) unlabeled images (i.e. without annotations). There is 1 split in the dataset: *train* (400 images). The dataset was released in 2020.
 
 Here is the visualized example grid with annotations:
 
