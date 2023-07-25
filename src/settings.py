@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Wind Turbines (by Duke Dataplus2020)"
+PROJECT_NAME: str = "Wind Turbines (Synthetic Overhead Images by Duke Dataplus2020)"
 PROJECT_NAME_FULL: str = (
     "Synthetic Overhead Images of Wind Turbines Made to Mimic California and Arizona"
 )
