@@ -17,6 +17,8 @@ PROJECT_NAME: str = "California and Arizona Wind Turbines (by Duke Dataplus2020)
 PROJECT_NAME_FULL: str = (
     "Synthetic Overhead Images of Wind Turbines Made to Mimic California and Arizona"
 )
+HIDE_DATASET = False  # set False when 100% sure about repo quality
+
 
 ##################################
 # * After uploading to instance ##
@@ -24,7 +26,7 @@ PROJECT_NAME_FULL: str = (
 LICENSE: License = License.CC_BY_4_0()
 
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy(is_used=False)]
-CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Aerial())
+CATEGORY: Category = Category.EnergyAndUtilities(extra=[Category.Aerial(), Category.Satellite()], is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -82,6 +84,8 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+                "hide_dataset": HIDE_DATASET,
+
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,

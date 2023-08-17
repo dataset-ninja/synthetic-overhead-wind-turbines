@@ -1,4 +1,4 @@
-**Synthetic Overhead Images of Wind Turbines Made to Mimic California and Arizona** is a dataset for object detection tasks. Possible applications of the dataset could be in the energy industry. 
+**Synthetic Overhead Images of Wind Turbines Made to Mimic California and Arizona** is a dataset for an object detection task. Possible applications of the dataset could be in the energy industry. The dataset presented here is not the original one. Learn more on the dataset's homepage.
 
 The dataset consists of 400 images with 2325 labeled objects belonging to 1 single class (*wind turbines*).
 
