@@ -1,3 +1,3 @@
 # Synthetic Overhead Images of Wind Turbines Made to Mimic California and Arizona
 
-Wind Turbines 2 is a dataset for object detection, semantic segmentation tasks.
+California and Arizona Wind Turbines (by Duke Dataplus2020) is a dataset for object detection tasks.
