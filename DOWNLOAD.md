@@ -1,6 +1,6 @@
 Dataset **California and Arizona Wind Turbines (by Duke Dataplus2020)** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/v/M/QM/ALYLZ8uk17706LeGXsQlx2WjQZkK12Nk3FeczND5X642xpv3VfD3Eg3T2G5WZ5C9zLFRUXkeFgu0RNXUx0iRcr3Ph0xSLiIVwDMRSrXDoIjFRG8Gn31hc9rJKuFq.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/p/2/jp/s833fT1GhP7xdkJ0lQk5ZVicAqDQCG2OhlgwYTlAkoom1Xi6DjOxOdGYNPaBUPFnTUtOiqYM2NiyGeKfjjVl8dhq9Dwpk9Uu6rscilLoGF3vN0CcR6fTkFfA02NU.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
