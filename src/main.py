@@ -1319,7 +1319,6 @@ if __name__ == "__main__":
     force_stats = forces.get("force_stats")
     force_visuals = forces.get("force_visuals")
     force_demo = forces.get("force_demo")
-    force_demo = forces.get("force_demo")
     force_texts = forces.get("force_texts")
 
     settings['force_texts'] = force_texts
@@ -1327,7 +1326,6 @@ if __name__ == "__main__":
     project_repo.build_stats(force=force_stats, settings=stat_options)
     project_repo.build_visualizations(force=force_visuals, settings=vis_options)
 
-    project_repo.build_demo(force=force_demo)
     project_repo.build_demo(force=force_demo)
     project_repo.build_demo(force=force_demo)
     project_repo.build_demo(force=force_demo)
@@ -1376,36 +1374,6 @@ if __name__ == "__main__":
     project_repo.build_demo(force=force_demo)
     project_repo.build_demo(force=force_demo)
     project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_texts(force=force_texts, preview_class=o.PREVIEW_CLASS)
-
-    sly.logger.info("Script finished.")
-forces.get("force_texts")
-
-    settings['force_texts'] = force_texts
-    project_repo = ProjectRepo(api, project_id, settings)
-    project_repo.build_stats(force=force_stats, settings=stat_options)
-    project_repo.build_visualizations(force=force_visuals, settings=vis_options)
-
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
-    project_repo.build_demo(force=force_demo)
     project_repo.build_texts(force=force_texts, preview_class=o.PREVIEW_CLASS)
 
     sly.logger.info("Script finished.")
@@ -1745,6 +1713,17 @@ forces.get("force_texts")
     project_repo.build_visualizations(force=force_visuals, settings=vis_options)
 
     project_repo.build_demo(force=force_demo)
+    project_repo.build_demo(force=force_demo)
+    project_repo.build_texts(force=force_texts, preview_class=o.PREVIEW_CLASS)
+
+    sly.logger.info("Script finished.")
+forces.get("force_texts")
+
+    settings['force_texts'] = force_texts
+    project_repo = ProjectRepo(api, project_id, settings)
+    project_repo.build_stats(force=force_stats, settings=stat_options)
+    project_repo.build_visualizations(force=force_visuals, settings=vis_options)
+
     project_repo.build_demo(force=force_demo)
     project_repo.build_texts(force=force_texts, preview_class=o.PREVIEW_CLASS)
 
